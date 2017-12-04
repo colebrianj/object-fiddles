@@ -6,9 +6,11 @@
 
 //Create an object called me. Give it a key of name with the value being your name, and another key of age with the value being your age. Then alert your name using dot notation.
 
-  //Code here
+  var me = Object();
+  me.name = "Brian";
+  me.age = "28";
 
-
+// alert(me.name)
 
 
 
@@ -23,14 +25,23 @@
   //Code here
 
 
-
+var favoriteThings = {
+  band: "band",
+  food: "Chicken Nuggets",
+  person: "no one",
+  book: "Harry Potter",
+  movie: "blank screen",
+  holiday: "holiday",
+  car: "Suburban",
+  brand: "Chevrolet"
+}
 
 
 
 
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
-  //Code here
+
 
 
 
@@ -58,7 +69,13 @@ Using dot notation, add another key (or property) to your backPack object
 that is named color, with the value being the color of your backpack. 
 */
 
-  //Code here
+ var backPack = Object();
+ var item = "firstPocket"
+ backPack[item] = 'chapstick'
+
+backPack.color = "navy"
+
+
 
 
 
@@ -67,7 +84,9 @@ that is named color, with the value being the color of your backpack.
 
 //After you do the above, alert your entire backPack object.
 
-  //Code here
+  // alert(backPack)
+
+  
 
  
 
@@ -77,7 +96,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
 
-  //Code here
+console.log(backPack)
 
 
 
@@ -89,17 +108,17 @@ Instead, console.log your whole backPack object and then check out the console.
 
 
 var user2 = {
-        name: 'Ty',
+        name: 'Tyler S. McGinnis',
         age: 24,
         pwHash: 'U+Ldlngx2BYQk',
-        email: 'ty33@gmail.com',
+        email: 'tyler.mcginnis@devmounta.in',
         birthday: '05/02/1990',
         username: 'tylermcginnis33'
 };
 //Let's say I, the user, decided to change my name and email address to the following
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
-  //Code Here
+  
 
 
 
